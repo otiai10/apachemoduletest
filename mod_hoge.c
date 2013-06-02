@@ -51,7 +51,7 @@ static int hoge_handler(request_rec *r)
     r->content_type = "text/html";      
 
     if (!r->header_only)
-        ap_rputs("The sample page from mod_hoge.c\n", r);
+        ap_rputs("The sample page from mod_hoge.c\nりっちゃんぺろぺろ！！", r);
     return OK;
 }
 
